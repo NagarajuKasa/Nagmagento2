@@ -6,6 +6,8 @@ $obj = $bootstrap->getObjectManager();
 $state = $obj->get('Magento\Framework\App\State');
 $state->setAreaCode('frontend');
 
+echo "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sin";
+
 echo "<pre>";
 //customer session
 $quote = $obj->get('Magento\Checkout\Model\Session')->getQuote()->load(2);
